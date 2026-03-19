@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CasaraoBurger</title>
+    <script src ="js/products.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;display=swap"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- topo da pagina -->
+    <header>
+      <div class="logo">
+        <samp
+          ><img class="img-logo" src="img/logo 2.jpg" alt="logo da lanchonete"
+        /></samp>
+      </div>
+      <nav class="menu-nav">
+        <ul class="container-nav">
+          <li class="links"><a href="#home">Home</a></li>
+          <li class="links"><a href="#sobre">Sobre</a></li>
+          <li class="links"><a href="#cardapio">Cardapio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- corpo do site -->
+    <main>
+      <!-- Primeira seção home -->
+      <section id="home" class="top">
+        <div class="textos">
+          <h1>"Explosão de Sabor em Cada Mordida."</h1>
+          <p>"O Sabor que Você Merece, com a Qualidade que Você Exige."</p>
+          <button>
+            <a href="https://wa.me/55118999999999" target="_blank"
+              >Peça Aqui!</a
+            >
+          </button>
+        </div>
+        <img class="img-top" src="img/monstruoso.png" alt="imagem do lanche" />
+      </section>
+
+      <!-- Segunda seção Sobre -->
+      <section id="sobre" class="sobre">
+        <h2 class="sub-sobre">"Sobre nossa Historia"</h2>
+        <div class="textos">
+          <img
+            src="img/360_F_284689392_3saPPQF33ysKU5UmZq9NJYudBpJDJehD.jpg"
+            alt="imagem de lanche pordentro"
+          />
+          <div class="texto-sobre">
+            <h3>"O sabor de um clássico com o toque artesanal que você merece. Bem-vindos ao Casarão! 🏰🍔 #HamburguerArtesanal #Casarao"</h3>
+            <p>
+              O Casarão Hambúrguer Artesanal é um destino gastronômico que une o
+              charme de um ambiente histórico à excelência da culinária feita à
+              mão. Especializada em blends suculentos e ingredientes
+              selecionados, a lanchonete se destaca pela produção artesanal,
+              onde itens como o pão de brioche, queijos especiais e molhos da
+              casa elevam o conceito do hambúrguer tradicional. Seja para
+              desfrutar de um momento no salão retrô ou aproveitar a praticidade
+              do delivery, o Casarão oferece uma experiência completa que
+              valoriza tanto o sabor quanto a tradição.
+            </p>
+            <button class="butt-peca-seu">Peça logo o seu!</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção do Cardapio -->
+      <section id="cardapio"  class="segunda-secao">
+        <div class="pedidos">
+          <h2 id="pedido">Faça seu Pedido Aqui &#128293</h2>
+          <div class="btn-pedido">
+            <button id="show-all" class="btg-pedido">Mostar <br>Cardapio</button>
+            <button id="map-all" class="btg-pedido">Mapear<br>Cardapio</button>
+            <button id="sum-all" class="btg-pedido">Somar<br>Tudo</button>
+            <button id="filter-all" class="btg-pedido">Filtrar<br>Cardapio</button>
+          </div>
+            <ul class="list-card">
+            </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Ro da pé -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <!-- Coluna 1: Logo e Descrição -->
+            <div class="footer-col">
+                <h2 class="logo">Casarão<span>Burger</span></h2>
+                <p>O melhor blend da cidade, grelhado no fogo como deve ser. Venha saborear a verdadeira paixão por hambúrguer.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna 3: Horários -->
+            <div class="footer-col">
+                <h4>Horários</h4>
+                <p>Terça a Quinta: 18h - 23h</p>
+                <p>Sexta a Domingo: 18h - 01h</p>
+                <p class="status" id="status-loja">Carregando status...</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Burger Flash - Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Importando Ícones -->
+<script src="https://kit.fontawesome.com" crossorigin="anonymous"></script>
+
+  </body>
+</html>
