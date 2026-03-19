@@ -20,4 +20,17 @@ Link para o projeto ao vivo</a>
 </ol>
 
 <h2>Fotos do Projeto</h2>
+<img width="3584" height="1702" alt="image" src="https://github.com/user-attachments/assets/251fbab7-369b-4f2c-b910-34f01f2961c8" />
+<h2>📦 Como rodar o projeto</h2>
+<h3>Clone este repositório</h3>
+git clone https://github.com
+<br>
+<h3>Navegue até a pasta do projeto</h3>
+cd casarao-burger
+<h2>🤝 Contribuições</h2>
+<p>Sinta-se à vontade para abrir uma Issue ou enviar um Pull Request se tiver sugestões de melhorias ou correções.</p>
+<br>
+<h2>Feito com ❤️ por [Fernando FaA]</h2>
+
+
 
