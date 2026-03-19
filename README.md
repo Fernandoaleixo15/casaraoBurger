@@ -1,8 +1,7 @@
 <h1>🍔 Casarão Burger</h1>
 <p>O <span> Casarão Burger</span> é um sistema de cardápio digital interativo que permite aos usuários visualizarem produtos, adicionarem itens ao carrinho e finalizarem pedidos via WhatsApp. Focado em uma experiência de usuário (UX) fluida e design responsivo.</p>
 <h2>🚀 Demonstração</h2>
-<a>(Opcional: Se você tiver o link do GitHub Pages ou Vercel, coloque aqui)
-Link para o projeto ao vivo</a>
+<a>https://casarao-burger-9v8pew0fp-fernandos-projects-28d50bb4.vercel.app/</a>
 <h2>🛠️ Tecnologias Utilizadas</h2>
 <p>O projeto foi construído utilizando o trio fundamental do desenvolvimento web:</p>
 <ul>
@@ -23,10 +22,10 @@ Link para o projeto ao vivo</a>
 <img width="3584" height="1702" alt="image" src="https://github.com/user-attachments/assets/251fbab7-369b-4f2c-b910-34f01f2961c8" />
 <h2>📦 Como rodar o projeto</h2>
 <h3>Clone este repositório</h3>
-git clone https://github.com
+[git clone https://github.com](https://fernandoaleixo15.github.io/casaraoBurger/)
 <br>
 <h3>Navegue até a pasta do projeto</h3>
-cd casarao-burger
+[cd casarao-burger](https://github.com/Fernandoaleixo15/casaraoBurger.git)
 <h2>🤝 Contribuições</h2>
 <p>Sinta-se à vontade para abrir uma Issue ou enviar um Pull Request se tiver sugestões de melhorias ou correções.</p>
 <br>
